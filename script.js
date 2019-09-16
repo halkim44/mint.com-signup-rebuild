@@ -8,7 +8,6 @@ function leaveFocus(container) {
 	helpText.style.display = '';
 }
 
-//select all input container
 let inputContainers = document.querySelectorAll('.input-container');
 
 inputContainers.forEach((container) => {
@@ -21,6 +20,3 @@ inputContainers.forEach((container) => {
 		leaveFocus(container);	
 	});
 })
-// iterate for each
-// input onfocus
-// whenFocus(current input-container)
